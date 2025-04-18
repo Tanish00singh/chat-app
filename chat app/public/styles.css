@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h2, h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0084ff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #0073e6;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #login-container {
+    text-align: center;
+  }
+  
+  #chat-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .side-panel {
+    width: 250px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  #user-list,
+  #online-users {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #user-list li,
+  #online-users li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #user-list button,
+  #online-users button {
+    padding: 5px 10px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #user-list button:hover,
+  #online-users button:hover {
+    background-color: #128c7e;
+  }
+  
+  #chat-box {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  #chat-with {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  #messages {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  
+  #messages div {
+    margin-bottom: 10px;
+  }
+  
+  #message-input {
+    width: calc(100% - 90px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #send-btn {
+    padding: 10px 15px;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #send-btn:hover {
+    background-color: #0073e6;
+  }
+  
+  #current-user {
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #chat-box {
+    display: none;
+  }
+  
+  #chat-container {
+    display: none;
+  }
+    
